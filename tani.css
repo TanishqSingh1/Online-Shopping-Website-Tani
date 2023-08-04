@@ -1,0 +1,261 @@
+ #tani_logo{
+    height: 130px;
+    width: 130px;
+    background-image: url("tsshopping1logo.png");
+    background-size:cover;
+    transition:all 0.4s ease-in-out;
+ }
+#tani_logo:hover{
+    opacity: 0.8;
+}
+body{
+    font-family:"Kaushan Script",cursive;
+}
+header{
+    height:130px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:20px;
+} 
+.head_middle span{
+    margin-left:60px;
+    font-size: 1.6rem;
+    color:#ef7998;
+    transition: all 0.5s ease-in-out;
+}
+.head_middle span:hover{
+    color:rgb(37, 36, 36);
+    
+}
+#tani_logo2{
+    height: 100px;
+    width: 280px;
+    background-image: url("t.png");
+    background-size:cover;
+    margin-top: none;
+}
+.cart1{
+    margin-right:4px;
+}
+#cart-setup{
+    height:40px;
+    width:150px;
+    border:2px solid black;
+    border-radius: 4px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#cart-setup:hover{
+    background-color:#ef7998;
+    color:white;
+    border:2px solid #ef7998;
+}
+#back-img{
+    height: 700px;
+    background: url("shoptslogo.jpg") center/cover fixed no-repeat;
+    position: relative;
+}
+#trans{
+    height:700px;
+    background-color:pink;
+    opacity: 0.2;
+}
+.welcome{
+    color:white;
+    font-size:70px;
+    position: absolute;
+    top:200px;
+    left:400px;
+    /* -webkit-text-stroke: 1px black; */
+}
+.welcome span{
+    color:#ef7998;
+}
+.explore-border{
+    border:4px solid black;
+    border-radius: 4px;
+    height:55px;
+    width:155px;
+    margin-left:700px;
+    position: absolute;
+    top:470px;
+} 
+.explore{
+    height:55px;
+    width:155px;
+    background-color: #ef7998;
+    border:none;
+}
+.opacit{
+    opacity: 0.1;
+}
+.explore-content{
+    font-size: 24px;
+    margin-left:725px;
+    position: absolute;
+    top:484px;
+}
+.about{
+    font-size:50px;
+}
+.us{
+    font-size:65px;
+    color:#ef7998;
+}
+.wel{
+    font-size:18px;
+}
+.hero-image{
+    height:300px;
+    width:430px;
+    background-image: url("online-shopping.jpg");
+    background-size: cover;
+}
+.second-section{
+    z-index: 1;
+}
+.hero-section{
+    display:flex;
+    margin-top:150px;
+    justify-content: space-evenly;
+}
+.ts{
+    font-size:28px;
+}
+.overlap{
+    height:320px;
+    width:450px;
+    border:8px solid yellow;
+    transition: all 1.5s ease-in-out;
+}
+ .overlap-previous{
+    position: relative;
+    left:850px;
+    bottom: 420px;
+}
+
+.overlap-after{
+    position: relative;
+    left:900px;
+    bottom: 370px;
+}
+.shopping-section{
+    position: relative;
+    bottom: 250px;
+    height:800px;
+    /* width:1000px; */
+    background-color: rgb(231, 231, 231);
+}
+.store-tani{
+    font-size:38px;
+    margin-left:650px;
+}
+.store-tani strong{
+    font-size: 55px;
+    color:#ef7998
+}
+#shopping-navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#shopping-navbar div{
+    margin-left:60px;
+    border:1px solid black;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size:18px;
+    font-weight:1px;
+}
+#shopping-navbar div:hover{
+    background-color: black;
+    color:#ef7998
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+}
+.search-bar button{
+    border:none;
+    height:37px;
+    width:47px;
+    background-color: #ef7998;
+    font-size: 18px;
+}
+.placehold{
+    height:35px;
+    width:320px;
+    border: none; 
+    font-family: "kaushan Script";
+    font-size:15px;
+}
+.img-measure{
+    height:330px;
+    width:330px;
+}
+.cont-measure{
+    height:72px;
+    width:330px;
+    background-color: white;
+}
+.shop-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:48px 100px 0px 100px;
+}
+.ma{
+    margin-top:40px;
+}
+.img-1{
+    background-image: url("fastrack.jpeg");
+    background-size: cover;
+}
+.img-2{
+    background-image: url("denver.jpg");
+    background-size: cover;
+}
+.img-3{
+    background-image: url("dell.jpg");
+    background-size: cover;
+}
+.img-4{
+    background-image: url("bonjour.jpg");
+    background-size: cover;
+}
+.img-5{
+    background-image: url("reaa.png");
+    background-size: cover;
+}
+.img-6{
+    background-image: url("Redmi note 8.png");
+    background-size: cover;
+}
+.img-7{
+    background-image: url("milton.jpeg");
+    background-size: cover;
+}
+.img-8{
+    background-image: url("bag21.png");
+    background-size: cover;
+}
+.img-9{
+    background-image: url("adrenex.jpeg");
+    background-size: cover;
+}
+.img-10{
+    background-image: url("");
+    background-size: cover;
+}
+.img-11{
+    background-image: url("");
+    background-size: cover;
+}
+.img-12{
+    background-image: url("");
+    background-size: cover;
+}
+
